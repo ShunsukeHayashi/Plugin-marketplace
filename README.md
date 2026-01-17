@@ -4,7 +4,7 @@ Claude Code 用プラグインのマーケットプレイスです。
 
 ## 概要
 
-このリポジトリは Claude Code で使用可能なプラグインを一元管理しています。
+Hayashi が開発した Claude Code プラグインを一元管理しています。
 
 ## 登録プラグイン
 
@@ -14,28 +14,22 @@ Claude Code 用プラグインのマーケットプレイスです。
 
 ## 使い方
 
-### 1. プラグインをインストール
+このマーケットプレイスを Claude Code に追加すると、登録済みプラグインをインストールできます。
 
-```bash
-cd ~/.claude
-git clone https://github.com/ShunsukeHayashi/miyabi-ppal-plugin.git
-```
+### マーケットプレイスの追加
 
-### 2. Claude Code で有効化
-
-`~/.claude/config.json` に追加:
+`~/.claude/plugins/known_marketplaces.json` に以下を追加:
 
 ```json
 {
-  "plugins": [
-    "~/.claude/miyabi-ppal-plugin"
-  ]
+  "plugin-marketplace": {
+    "source": {
+      "source": "github",
+      "repo": "ShunsukeHayashi/Plugin-marketplace"
+    }
+  }
 }
 ```
-
-## プラグイン登録
-
-新しいプラグインを登録したい場合は、Pull Request を送るか、`marketplace.json` に追加してください。
 
 ## ライセンス
 
