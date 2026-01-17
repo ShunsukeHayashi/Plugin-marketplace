@@ -20,39 +20,7 @@
         "url": "https://github.com/ShunsukeHayashi/miyabi-ppal-plugin.git"
       },
       "category": "productivity",
-      "homepage": "https://github.com/ShunsukeHayashi/miyabi-ppal-plugin",
-      "skills": [
-        {
-          "name": "shikirun",
-          "displayName": "しきるん",
-          "description": "統括・調整 - ローンチ実行の総指揮、タスク分解・分配"
-        },
-        {
-          "name": "manabun",
-          "displayName": "まなぶん",
-          "description": "カリキュラム・Teachable - カリキュラム設計、Teachable商品設定"
-        },
-        {
-          "name": "tsukurun",
-          "displayName": "つくるん",
-          "description": "コンテンツ制作 - セールスレター、LP、動画スクリプト、SNS投稿"
-        },
-        {
-          "name": "hiromerun",
-          "displayName": "ひろめるん",
-          "description": "マーケティング・L-Step - L-Step設計、タグ設計、シナリオ作成"
-        },
-        {
-          "name": "sasaerun",
-          "displayName": "ささえるん",
-          "description": "サポート - FAQ作成、サポート対応、コミュニティ管理"
-        },
-        {
-          "name": "kazoerun",
-          "displayName": "かぞえるん",
-          "description": "分析・KPI - KPI設定、売上分析、レポート作成"
-        }
-      ]
+      "homepage": "https://github.com/ShunsukeHayashi/miyabi-ppal-plugin"
     },
     {
       "name": "miyabi-operations",
@@ -67,68 +35,7 @@
         "url": "https://github.com/ShunsukeHayashi/Miyabi.git"
       },
       "category": "development",
-      "homepage": "https://shunsukehayashi.github.io/Miyabi/",
-      "documentation": "https://github.com/ShunsukeHayashi/Miyabi/blob/main/README-PLUGIN.md",
-      "commands": [
-        {
-          "name": "verify",
-          "description": "System verification (environment, build, tests)"
-        },
-        {
-          "name": "agent-run",
-          "description": "Execute autonomous agents on GitHub Issues"
-        },
-        {
-          "name": "deploy",
-          "description": "Deploy to Firebase/Cloud with health checks"
-        },
-        {
-          "name": "miyabi-auto",
-          "description": "Full autonomous pipeline execution"
-        },
-        {
-          "name": "miyabi-status",
-          "description": "Check system and agent status"
-        },
-        {
-          "name": "miyabi-todos",
-          "description": "TODO comment extraction and Issue creation"
-        },
-        {
-          "name": "security-scan",
-          "description": "Security vulnerability scanning"
-        },
-        {
-          "name": "generate-docs",
-          "description": "Documentation generation from code"
-        }
-      ],
-      "agents": [
-        {
-          "name": "CoordinatorAgent",
-          "description": "Task orchestration and DAG decomposition"
-        },
-        {
-          "name": "CodeGenAgent",
-          "description": "AI-driven code generation (Claude Sonnet 4)"
-        },
-        {
-          "name": "ReviewAgent",
-          "description": "Code quality assessment (80-point threshold)"
-        },
-        {
-          "name": "IssueAgent",
-          "description": "Issue analysis and label management"
-        },
-        {
-          "name": "PRAgent",
-          "description": "Pull Request automation (Conventional Commits)"
-        },
-        {
-          "name": "DeploymentAgent",
-          "description": "CI/CD automation with rollback"
-        }
-      ]
+      "homepage": "https://shunsukehayashi.github.io/Miyabi/"
     }
   ]
 }
