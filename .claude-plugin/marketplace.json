@@ -16,8 +16,8 @@
         "email": "supernovasyun@gmail.com"
       },
       "source": {
-        "source": "github",
-        "repo": "ShunsukeHayashi/miyabi-ppal-plugin"
+        "source": "url",
+        "url": "https://github.com/ShunsukeHayashi/miyabi-ppal-plugin.git"
       },
       "category": "productivity",
       "homepage": "https://github.com/ShunsukeHayashi/miyabi-ppal-plugin",
