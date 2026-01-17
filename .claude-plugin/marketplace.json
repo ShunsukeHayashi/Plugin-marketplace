@@ -53,6 +53,82 @@
           "description": "分析・KPI - KPI設定、売上分析、レポート作成"
         }
       ]
+    },
+    {
+      "name": "miyabi-operations",
+      "description": "Complete autonomous development operations - Issue to Deploy automation powered by GitHub as OS. 超初心者でも使える自律型開発フレームワーク",
+      "version": "1.0.0",
+      "author": {
+        "name": "Shunsuke Hayashi",
+        "email": "supernovasyun@gmail.com"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/ShunsukeHayashi/Miyabi.git"
+      },
+      "category": "development",
+      "homepage": "https://shunsukehayashi.github.io/Miyabi/",
+      "documentation": "https://github.com/ShunsukeHayashi/Miyabi/blob/main/README-PLUGIN.md",
+      "commands": [
+        {
+          "name": "verify",
+          "description": "System verification (environment, build, tests)"
+        },
+        {
+          "name": "agent-run",
+          "description": "Execute autonomous agents on GitHub Issues"
+        },
+        {
+          "name": "deploy",
+          "description": "Deploy to Firebase/Cloud with health checks"
+        },
+        {
+          "name": "miyabi-auto",
+          "description": "Full autonomous pipeline execution"
+        },
+        {
+          "name": "miyabi-status",
+          "description": "Check system and agent status"
+        },
+        {
+          "name": "miyabi-todos",
+          "description": "TODO comment extraction and Issue creation"
+        },
+        {
+          "name": "security-scan",
+          "description": "Security vulnerability scanning"
+        },
+        {
+          "name": "generate-docs",
+          "description": "Documentation generation from code"
+        }
+      ],
+      "agents": [
+        {
+          "name": "CoordinatorAgent",
+          "description": "Task orchestration and DAG decomposition"
+        },
+        {
+          "name": "CodeGenAgent",
+          "description": "AI-driven code generation (Claude Sonnet 4)"
+        },
+        {
+          "name": "ReviewAgent",
+          "description": "Code quality assessment (80-point threshold)"
+        },
+        {
+          "name": "IssueAgent",
+          "description": "Issue analysis and label management"
+        },
+        {
+          "name": "PRAgent",
+          "description": "Pull Request automation (Conventional Commits)"
+        },
+        {
+          "name": "DeploymentAgent",
+          "description": "CI/CD automation with rollback"
+        }
+      ]
     }
   ]
 }
