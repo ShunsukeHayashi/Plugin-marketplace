@@ -15,7 +15,10 @@
         "name": "Shunsuke Hayashi",
         "email": "supernovasyun@gmail.com"
       },
-      "source": "./plugins/miyabi-ppal-plugin",
+      "source": {
+        "source": "github",
+        "repo": "ShunsukeHayashi/miyabi-ppal-plugin"
+      },
       "category": "productivity",
       "homepage": "https://github.com/ShunsukeHayashi/miyabi-ppal-plugin",
       "skills": [
