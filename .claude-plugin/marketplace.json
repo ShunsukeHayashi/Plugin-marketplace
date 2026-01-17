@@ -1,0 +1,55 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "plugin-marketplace",
+  "description": "Hayashi's Claude Code plugins - Course Society, Miyabi operations, and productivity tools",
+  "owner": {
+    "name": "Shunsuke Hayashi",
+    "email": "supernovasyun@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "miyabi-ppal-plugin",
+      "description": "Course Society for Claude Code - オンラインコース運営のための6つの専門エージェント（しきるん、まなぶん、つくるん、ひろめるん、ささえるん、かぞえるん）",
+      "version": "1.0.0",
+      "author": {
+        "name": "Shunsuke Hayashi",
+        "email": "supernovasyun@gmail.com"
+      },
+      "source": "./plugins/miyabi-ppal-plugin",
+      "category": "productivity",
+      "homepage": "https://github.com/ShunsukeHayashi/miyabi-ppal-plugin",
+      "skills": [
+        {
+          "name": "shikirun",
+          "displayName": "しきるん",
+          "description": "統括・調整 - ローンチ実行の総指揮、タスク分解・分配"
+        },
+        {
+          "name": "manabun",
+          "displayName": "まなぶん",
+          "description": "カリキュラム・Teachable - カリキュラム設計、Teachable商品設定"
+        },
+        {
+          "name": "tsukurun",
+          "displayName": "つくるん",
+          "description": "コンテンツ制作 - セールスレター、LP、動画スクリプト、SNS投稿"
+        },
+        {
+          "name": "hiromerun",
+          "displayName": "ひろめるん",
+          "description": "マーケティング・L-Step - L-Step設計、タグ設計、シナリオ作成"
+        },
+        {
+          "name": "sasaerun",
+          "displayName": "ささえるん",
+          "description": "サポート - FAQ作成、サポート対応、コミュニティ管理"
+        },
+        {
+          "name": "kazoerun",
+          "displayName": "かぞえるん",
+          "description": "分析・KPI - KPI設定、売上分析、レポート作成"
+        }
+      ]
+    }
+  ]
+}
