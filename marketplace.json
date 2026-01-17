@@ -1,0 +1,80 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-01-17",
+  "plugins": [
+    {
+      "name": "miyabi-ppal-plugin",
+      "version": "1.0.0",
+      "description": "Miyabi PPAL Plugin - Course Society for Claude Code. オンラインコース運営のための6つの専門エージェント（しきるん、まなぶん、つくるん、ひろめるん、ささえるん、かぞえるん）を提供します。",
+      "author": "Shunsuke Hayashi",
+      "license": "MIT",
+      "homepage": "https://github.com/ShunsukeHayashi/miyabi-ppal-plugin",
+      "repository": "https://github.com/ShunsukeHayashi/miyabi-ppal-plugin.git",
+      "branch": "main",
+      "keywords": [
+        "course",
+        "teachable",
+        "lstep",
+        "marketing",
+        "curriculum",
+        "japanese",
+        "ppal",
+        "miyabi"
+      ],
+      "skills": [
+        {
+          "name": "shikirun",
+          "displayName": "しきるん",
+          "description": "統括・調整 - ローンチ実行の総指揮、タスク分解・分配",
+          "triggers": ["/shikirun", "しきるん", "統括", "ローンチ", "launch"]
+        },
+        {
+          "name": "manabun",
+          "displayName": "まなぶん",
+          "description": "カリキュラム・Teachable - カリキュラム設計、Teachable商品設定",
+          "triggers": ["/manabun", "まなぶん", "カリキュラム", "curriculum"]
+        },
+        {
+          "name": "tsukurun",
+          "displayName": "つくるん",
+          "description": "コンテンツ制作 - セールスレター、LP、動画スクリプト、SNS投稿",
+          "triggers": ["/tsukurun", "つくるん", "コンテンツ", "content"]
+        },
+        {
+          "name": "hiromerun",
+          "displayName": "ひろめるん",
+          "description": "マーケティング・L-Step - L-Step設計、タグ設計、シナリオ作成",
+          "triggers": ["/hiromerun", "ひろめるん", "マーケ", "marketing", "lstep"]
+        },
+        {
+          "name": "sasaerun",
+          "displayName": "ささえるん",
+          "description": "サポート - FAQ作成、サポート対応、コミュニティ管理",
+          "triggers": ["/sasaerun", "ささえるん", "サポート", "support"]
+        },
+        {
+          "name": "kazoerun",
+          "displayName": "かぞえるん",
+          "description": "分析・KPI - KPI設定、売上分析、レポート作成",
+          "triggers": ["/kazoerun", "かぞえるん", "分析", "analytics", "kpi"]
+        }
+      ],
+      "categories": {
+        "coordination": ["shikirun"],
+        "curriculum": ["manabun"],
+        "content": ["tsukurun"],
+        "marketing": ["hiromerun"],
+        "support": ["sasaerun"],
+        "analytics": ["kazoerun"]
+      }
+    }
+  ],
+  "categories": {
+    "coordination": { "icon": "🎭", "description": "統括・調整" },
+    "curriculum": { "icon": "📚", "description": "カリキュラム・学習設計" },
+    "content": { "icon": "✍️", "description": "コンテンツ制作" },
+    "marketing": { "icon": "📢", "description": "マーケティング・集客" },
+    "support": { "icon": "💬", "description": "カスタマーサポート" },
+    "analytics": { "icon": "📊", "description": "分析・KPI" }
+  }
+}
